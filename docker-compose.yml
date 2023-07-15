@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  ubuntu-java-17:
+    image: swtnk/ubuntu-openjdk-java-17:latest
+    container_name: ubuntu-java-17
+    volumes:
+      - ./src/:/app
